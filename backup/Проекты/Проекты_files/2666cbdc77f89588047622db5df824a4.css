@@ -1,0 +1,228 @@
+.screencontten{
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.screencontimgten{
+	width: 104%;
+	height: 104%;
+	position: absolute;
+	top: -2%;
+	left: -2%;
+	object-fit: cover;
+	object-position: center;
+	z-index: -1;
+}
+
+.screentextcontten{
+	background-color: rgba(1,1,1,0.3);
+	text-align: center;
+	border-radius: 19px;
+}
+
+.screentexttopten{
+	font-family: Baskerville;
+  font-size: 120px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -1.1px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.screentextcenterten{
+	opacity: 0.77;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.screentextbottomcontten{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.screentextbottomten{
+	font-family: Roboto;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
+  display: table-cell;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  opacity: .8;
+  transition: .2s;
+}
+
+.screentextbottomten:hover{
+	text-decoration: none;
+	color: #fff;
+	opacity: 1;
+}
+
+.screentextbottomten:focus{
+	text-decoration: none;
+	color: #fff;
+}
+
+.screentextbottomten:active{
+	text-decoration: none;
+	color: #fff;
+	opacity: .7;
+	transform: scale(.99);
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1400px) {
+	.screentextcenterten{
+		padding-top: 6px;
+		padding-bottom: 53px;
+	}
+	.screentexttopten{
+		padding-top: 78px;
+	}
+	.screentextbottomcontten{
+		margin-bottom: 78px;
+	}
+	.screentextcontten{
+		width: 1300px;
+		padding-left: 200px;
+		padding-right: 200px;
+	}
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) and (max-width: 1399px) {
+	.screentextcenterten{
+		padding-top: 6px;
+		padding-bottom: 53px;
+	}
+	.screentexttopten{
+		padding-top: 78px;
+	}
+	.screentextbottomcontten{
+		margin-bottom: 78px;
+	}
+	.screentextcontten{
+		width: 1000px;
+		padding-left: 160px;
+		padding-right: 160px;
+	}
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.screentextcenterten{
+		padding-top: 6px;
+		padding-bottom: 43px;
+	}
+	.screentexttopten{
+		padding-top: 68px;
+	}
+	.screentextbottomcontten{
+		margin-bottom: 68px;
+	}
+	.screentextcontten{
+		width: 900px;
+		padding-left: 140px;
+		padding-right: 140px;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.screentextcenterten{
+		padding-top: 6px;
+		padding-bottom: 33px;
+	}
+	.screentexttopten{
+		padding-top: 48px;
+		font-size: 100px;
+	}
+	.screentextbottomcontten{
+		margin-bottom: 48px;
+	}
+	.screentextcontten{
+		width: 700px;
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+	.screentextcenterten{
+		padding-top: 6px;
+		padding-bottom: 33px;
+	}
+	.screentexttopten{
+		padding-top: 34px;
+		font-size: 50px;
+	}
+	.screentextbottomcontten{
+		margin-bottom: 38px;
+		font-size: 20px;
+	}
+	.screentextcontten{
+		width: 400px;
+		padding-left: 40px;
+		padding-right: 40px;
+		font-size: 18px;
+	}
+	.screentextbottomten{
+		padding-left: 90px;
+		padding-right: 90px;
+	}
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+	.screentextcenterten{
+		padding-top: 6px;
+		padding-bottom: 33px;
+	}
+	.screentexttopten{
+		padding-top: 34px;
+		font-size: 50px;
+	}
+	.screentextbottomcontten{
+		margin-bottom: 38px;
+		font-size: 20px;
+	}
+	.screentextcontten{
+		width: 310px;
+		padding-left: 40px;
+		padding-right: 40px;
+		font-size: 18px;
+	}
+	.screentextbottomten{
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+}	

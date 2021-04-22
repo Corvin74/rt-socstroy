@@ -1,0 +1,66 @@
+
+.footercontactsconttwelve{
+  overflow: hidden;
+  position: relative;
+}
+
+#footermaptwelve{
+  float: left;
+  z-index: 0;
+  filter: grayscale(1);
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1850px) {
+#footermaptwelve{
+  width: 100%;
+  height: 800px;
+}
+}
+
+@media (min-width: 1400px) and (max-width: 1849px) {
+#footermaptwelve{
+  width: 100%;
+  height: 650px;
+}
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) and (max-width: 1399px) {
+#footermaptwelve{
+  width: 100%;
+  height: 500px;
+}
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+#footermaptwelve{
+  width: 100%;
+  height: 500px;
+}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+#footermaptwelve{
+  width: 100%;
+  height: 500px;
+}
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+#footermaptwelve{
+  width: 100%;
+  height: 400px;
+}
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+#footermaptwelve{
+  width: 100%;
+  height: 300px;
+}
+} 

@@ -1,0 +1,85 @@
+*{
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+
+ul,
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	font-weight: 400;
+	font-family: "Roboto",Arial,sans-serif;
+	line-height: 1.6;
+	-webkit-font-smoothing: antialiased;
+	color: #595959;
+}
+
+.header{
+	max-width: 1140px;
+	height: 60px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	align-content: space-between;
+	padding: 50px;
+	margin: 0 auto;
+}
+
+.header__top{
+
+}
+
+.container{
+	display: flex;
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.header__logo{
+	width: 160px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.header__menu{
+	width: 100%;
+}
+
+.header__menunav{
+	display: flex;
+	justify-content: flex-end;
+	padding: 20px 15px;
+}
+
+.header__menunav_item{
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	color: #595959;
+}
+
+/* Красивости */
+/*
+.g-bg-black-opacity-0_7--after::after{
+	background-color:rgba(0,0,0,0.7) !important
+}
+*/
+/*@media(min-width: 1200px){
+	.header{
+		max-width: 1140px;
+	}	
+}
+*/
